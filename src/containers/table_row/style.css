@@ -1,0 +1,7 @@
+.table_row {
+    height: 48px;
+    width: 1047px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}

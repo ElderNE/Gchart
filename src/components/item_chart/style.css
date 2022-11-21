@@ -1,0 +1,22 @@
+.chart_item {
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.chart_text {
+    margin: 0 0 0 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #262842;
+}
+.chart_graph {
+    width: 22px;
+    height: 24px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}

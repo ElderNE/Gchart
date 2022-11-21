@@ -1,0 +1,19 @@
+.work_item_header {
+    width: 390px;
+    height: 48px;
+    background-color: #F7F8FC;
+    padding: 0 0 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+    box-sizing: border-box;
+}
+.work_item_header > h2 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #6D6E85;
+    text-align: start;
+}

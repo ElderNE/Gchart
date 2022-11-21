@@ -1,0 +1,40 @@
+.header {
+    width: 1440px;
+    height: 68px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+}
+.header > h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #262842;
+    line-height: 28px;
+    text-align: start;
+    margin: 0;
+}
+.header > button {
+    width: 101px;
+    height: 40px;
+    border: 1px solid rgba(38, 40, 66, 0.12);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #262842;
+    line-height: 18px;
+    margin: 2px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.header > button > img{
+    width: 12.1px; 
+    height: 16.6px;
+    margin: 0 12.2px 0 0;
+}

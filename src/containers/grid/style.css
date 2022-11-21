@@ -1,0 +1,38 @@
+.grid {
+    height: 48px;
+    width: 100%;
+    background-color: #F7F8FC;
+}
+.grid_col {
+    display: flex;
+    flex-direction: row;
+}
+.grid_col > div {
+    width: 22px;
+    height: 24px;
+    box-sizing: border-box;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: rgba(38, 40, 66, 0.12);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 4px;
+}
+.grid_row {
+    height: 24px;
+    width: 154px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(38, 40, 66, 0.12);
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #262842;
+    text-align: center;
+    padding: 4px 0 0 0;
+}
